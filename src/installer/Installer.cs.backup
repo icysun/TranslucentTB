@@ -1,0 +1,13 @@
+try
+{
+    // Attempt to install the application
+    Console.WriteLine("Installing TranslucentTB...");
+    // The actual installation code should be here
+    // For example:
+    // Installer.Install("TranslucentTB.exe");
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Error installing TranslucentTB: " + ex.Message);
+    throw;
+}
